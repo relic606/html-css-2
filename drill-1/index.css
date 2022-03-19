@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-section{
+    height: 20vh;
+    background-color: rgb(75, 72, 72);
+    width: 100%;
+}
+.main-section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: flex-end;
+}
+.side-bar{
+    background-color: darkgray;
+    width: 150px;
+    height: 100%;
+}
+.middle-bar{
+    background-color: white;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column-reverse;
+
+}
+.middle-bottom{
+    background-color: rgb(39, 39, 39);
+    height: 100px;
+    position: relative;
+
+}
